@@ -2,14 +2,26 @@
   "name": "importexport",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "dist/index.js",
   "scripts": {
     "serve": "http-server ",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlarina790/Import-Export.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlarina790/Import-Export/issues"
+  },
+  "homepage": "https://github.com/mlarina790/Import-Export#readme",
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
